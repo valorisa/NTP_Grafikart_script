@@ -3,7 +3,7 @@ Analyse détaillée de la vidéo Grafikart sur le protocole NTP avec explication
 
 ### 1. Présentation du sujet
 
-Jonathan de Grafikart s’interroge sur la synchronisation de l’horloge d’un client avec celle d’un serveur, question fondamentale pour tous les systèmes modernes. Il explique que cette tâche est généralement automatisée grâce au **protocole NTP (Network Time Protocol)**, et s’appuie notamment sur la lecture de RFC (spécifications officielles du protocole) et de ressources vulgarisées comme Wikipédia[1].
+Jonathan Boyer de Grafikart s’interroge sur la synchronisation de l’horloge d’un client avec celle d’un serveur, question fondamentale pour tous les systèmes modernes. Il explique que cette tâche est généralement automatisée grâce au **protocole NTP (Network Time Protocol)**, et s’appuie notamment sur la lecture de RFC (spécifications officielles du protocole) et de ressources vulgarisées comme Wikipédia[1].
 
 ### 2. Architecture du NTP
 
