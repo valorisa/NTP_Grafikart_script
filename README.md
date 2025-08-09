@@ -134,9 +134,9 @@ Prenons des valeurs fictives pour illustrer les calculs présentés par Jonathan
 | T'2     | Envoi du serveur (réponse)                      | 1,207       |
 | T2      | Réception de la réponse par le client           | 1,408       |
 
-#### Calculs
+### Calculs
 
-## Ping (aller-retour)
+#### Ping (aller-retour)
 
 La formule pour calculer le ping (aller-retour) est la suivante :
 
@@ -153,7 +153,7 @@ Ping = (1,408 - 1,000) - (1,207 - 1,205) = 0,408 - 0,002 = 0,406 s = 406 ms
 
 ***
 
-## Décalage (offset)
+#### Décalage (offset)
 
 La formule pour calculer le décalage est la suivante :
 
