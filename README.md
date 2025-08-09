@@ -136,25 +136,41 @@ Prenons des valeurs fictives pour illustrer les calculs présentés par Jonathan
 
 #### Calculs
 
-- **Ping (aller-retour)** :
-  
-  $$
-  \text{Ping} = (T2 - T1) - (T'2 - T'1)
-  $$
-  
-  $$
-  \text{Ping} = (1,408 - 1,000) - (1,207 - 1,205) = 408 - 2 = 406\,\text{ms}
-  $$
+## Ping (aller-retour)
 
-- **Décalage (offset)** :
+La formule pour calculer le ping (aller-retour) est la suivante :
 
-  $$
-  \text{Offset} = \frac{(T'1 - T1) + (T'2 - T2)}{2}
-  $$
-  
-  $$
-  \text{Offset} = \frac{(1,205 - 1,000) + (1,207 - 1,408)}{2} = \frac{205 - 201}{2} = \frac{4}{2} = 2\,\text{ms}
-  $$
+
+```text
+Ping = (T2 - T1) - (T'2 - T'1)
+```
+
+En remplaçant par les valeurs :
+
+```text
+Ping = (1,408 - 1,000) - (1,207 - 1,205) = 0,408 - 0,002 = 0,406 s = 406 ms
+```
+
+***
+
+## Décalage (offset)
+
+La formule pour calculer le décalage est la suivante :
+
+```text
+Offset = ((T'1 - T1) + (T'2 - T2)) / 2
+```
+
+Avec les valeurs données, on obtient :
+
+```text
+Offset = ((1,205 - 1,000) + (1,207 - 1,408)) / 2
+       = (0,205 - 0,201) / 2
+       = 0,004 / 2
+       = 0,002 s = 2 ms
+```
+
+***
 
 #### Interprétation
 
