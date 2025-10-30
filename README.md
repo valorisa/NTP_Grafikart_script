@@ -199,9 +199,9 @@ Ces calculs permettent ainsi, même en présence de latence réseau, de corriger
 #### Tableau comparatif
 
 | Solution         | Précision typique      | Protocole          | Limitations principales         |
-|------------------|-----------------------|--------------------|-------------------------------|
-| Script NTP (UDP) | 1–10 ms (souvent <5)  | UDP/NTP natif      | Nécessite accès réseau bas niveau |
-| Time.is (HTTP)   | 20–100 ms             | HTTP (navigateur)  | Plus de jitter et incertitude      |
+|------------------|------------------------|--------------------|---------------------------------|
+| Script NTP (UDP) | 1–10 ms (souvent <5)  -| UDP/NTP natif      | Oblige à accès réseau bas niveau|
+| Time.is (HTTP)   | 20–100 ms             -| HTTP (navigateur)  | Plus de jitter et incertitude   |
 
 #### Pourquoi cette différence ?
 
